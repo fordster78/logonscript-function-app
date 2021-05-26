@@ -1,0 +1,48 @@
+{
+    "drives": [
+        {
+            "group": [
+                "Base"
+            ],
+            "drives": [
+                {
+                    "driveLetter": "G",
+                    "uncPath": "\\\\FILESERVER.CORP\\Company Drive"
+                }
+            ]
+        },
+        {
+            "group": [
+                "Solution Center"
+            ],
+            "drives": [
+                {
+                    "driveLetter": "S",
+                    "uncPath": "\\\\FILESERVER.CORP\\Solution Center"
+                }
+            ]
+        },
+        {
+            "group": [
+                "Marketing"
+            ],
+            "drives": [
+                {
+                    "driveLetter": "M",
+                    "uncPath": "\\\\FILESERVER.CORP\\marketing"
+                }
+            ]
+        }
+    ],
+    "printers": [
+        {
+            "group": "BASE",
+            "printers": [
+                {
+                    "server": "printserver.corp",
+                    "printer": "FollowMePrint"
+                }
+            ]
+        }
+    ] 
+}
